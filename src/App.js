@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.scss';
 
+import Container from './Components/Container/Container.js'
+import Header from './Components/Header/Header.js';
+
 function App() {
   return (
-    <div className='app'>
-      Hello
-    </div>
+    <Container className='App'>
+      <Header title='POKEDEX'/>
+    </Container>
   );
 }
 
