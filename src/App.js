@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.scss';
+import styled from 'styled-components';
+// import './App.scss';
 
-import Container from './Components/Container/Container.js'
+import Container from './Components/Container/Container.js';
 import Header from './Components/Header/Header.js';
 
 function App() {
   return (
-    <Container className='App'>
+    <Container>
       <Header title='POKEDEX'/>
     </Container>
   );
