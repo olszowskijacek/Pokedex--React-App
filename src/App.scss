@@ -15,4 +15,9 @@
         width: 45%;
         border: 1px solid red;
     }
+    @media (max-width: 767px) {
+        .section {
+            width: 80%;
+        }
+    }
 }
